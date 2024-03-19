@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+package work;
+
+
+message User {
+    string name = 1;
+    string midName = 2;
+    string lastName = 3;
+    string phone = 4;
+    string Note = 5;
+}
+
+message GetUserRequest {
+    User user = 1;
+}
+
+message GetUserResponse {
+    string message = 1;
+}
+
+service Work{
+  rpc GetUser (GetUserRequest) returns (stream User) {}
+  rpc addUser (User) returns (GetUserResponse) {}
+  rpc deleteUser (User) returns (GetUserResponse) {}
+  rpc findUser (User) returns (stream User) {}
+}
+

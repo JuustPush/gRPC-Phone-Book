@@ -1,0 +1,4 @@
+/home/admin1/work/cpp_server/cmake/build/CMakeFiles/rebuild_cache.dir
+/home/admin1/work/cpp_server/cmake/build/CMakeFiles/edit_cache.dir
+/home/admin1/work/cpp_server/cmake/build/CMakeFiles/test.dir
+/home/admin1/work/cpp_server/cmake/build/CMakeFiles/hw_grpc_proto.dir
